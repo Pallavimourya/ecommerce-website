@@ -15,9 +15,9 @@ import Categories from "./components/Categories/categories";
 import ContactUs from "./components/Contactus/contactus";
 import ProductDetails from "./components/ProductDetails/productdetails";
 import FAQs from "./components/Faqs/faqs";
-import ReturnPolicy from "./components/ReturnPolicy/returnpolicy";
 import ShippingInfo from "./components/ShippingInfo/shippinginfo";
 import TermsConditions from "./components/TermsAndCondition/termsandconditions";
+import ReturnPolicy from "./components/Returnpolicy/returnpolicy";
 
 const App = () => {
   return (
@@ -37,9 +37,10 @@ const App = () => {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/faqs" element={<FAQs />} />
-        <Route path="/returnpolicy" element={<ReturnPolicy/>} />
         <Route path="/shippinginfo" element={<ShippingInfo/>} />
         <Route path="/termsandconditions" element={<TermsConditions/>} />
+        <Route path="/returnpolicy" element={<ReturnPolicy/>} />
+
       </Routes>
       <Footer />
     </Router>
