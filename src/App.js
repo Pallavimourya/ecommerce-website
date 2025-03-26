@@ -17,7 +17,6 @@ import ProductDetails from "./components/ProductDetails/productdetails";
 import FAQs from "./components/Faqs/faqs";
 import ShippingInfo from "./components/ShippingInfo/shippinginfo";
 import TermsConditions from "./components/TermsAndCondition/termsandconditions";
-import ReturnPolicy from "./components/Returnpolicy/returnpolicy";
 
 const App = () => {
   return (
@@ -39,7 +38,6 @@ const App = () => {
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/shippinginfo" element={<ShippingInfo/>} />
         <Route path="/termsandconditions" element={<TermsConditions/>} />
-        <Route path="/returnpolicy" element={<ReturnPolicy/>} />
 
       </Routes>
       <Footer />
