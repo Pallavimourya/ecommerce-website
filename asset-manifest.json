@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecommerce-website/static/css/main.de9f9bd2.css",
-    "main.js": "/ecommerce-website/static/js/main.3c53381d.js",
+    "main.js": "/ecommerce-website/static/js/main.e190c7fe.js",
     "static/media/shop1.jpg": "/ecommerce-website/static/media/shop1.b58c61d94ee356509a93.jpg",
     "static/media/shop2.jpg": "/ecommerce-website/static/media/shop2.18a9402afac067119c35.jpg",
     "static/media/coffeemaker.jpg": "/ecommerce-website/static/media/coffeemaker.8b90764f948454878a24.jpg",
@@ -37,10 +37,10 @@
     "static/media/insta.jpg": "/ecommerce-website/static/media/insta.ddcfd731786f7bf59106.jpg",
     "index.html": "/ecommerce-website/index.html",
     "main.de9f9bd2.css.map": "/ecommerce-website/static/css/main.de9f9bd2.css.map",
-    "main.3c53381d.js.map": "/ecommerce-website/static/js/main.3c53381d.js.map"
+    "main.e190c7fe.js.map": "/ecommerce-website/static/js/main.e190c7fe.js.map"
   },
   "entrypoints": [
     "static/css/main.de9f9bd2.css",
-    "static/js/main.3c53381d.js"
+    "static/js/main.e190c7fe.js"
   ]
 }
