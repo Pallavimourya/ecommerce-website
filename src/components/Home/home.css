@@ -1,0 +1,61 @@
+@keyframes changeBackground {
+    0%, 100% {
+        background-image: url('../../assets/img/shop1.jpg');
+    }
+    50% {
+        background-image: url('../../assets/img/shop2.jpg');
+    }
+}
+
+.home {
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: changeBackground 5s infinite alternate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ✅ Stylish Overlay with Glassmorphism */
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent dark overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ✅ Text & Button Styling */
+.content {
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(8px);
+    padding: 2rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ✅ CTA Button */
+.btn {
+    background: #6ACFC7;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background: #0C1A1A;
+    transform: scale(1.05);
+}

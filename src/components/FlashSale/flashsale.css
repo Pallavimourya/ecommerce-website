@@ -1,0 +1,78 @@
+.flash-sale {
+    text-align: center;
+    padding: 2rem 0;
+    background: #111439;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #BAFF39;
+}
+
+.timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.timer span {
+    color: #FF4C4C;
+    font-weight: bold;
+}
+
+.sale-products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.sale-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.sale-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.sale-card h3 {
+    font-size: 1.3rem;
+    color: #455a64;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #6e6e6e;
+}
+
+.new-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FF4C4C;
+}
+
+.btn {
+    margin-top: 10px;
+    background: #6ACFC7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #FF4C4C;
+}
