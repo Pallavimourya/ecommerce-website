@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/navbar";
 import Home from "./components/Home/home";
 import TrendingProducts from "./components/TrendingProducts/trendingproducts";
@@ -22,7 +23,10 @@ const App = () => {
   return (
     <Router>
       <Navbar />
+      {/* <Home/>
+      <Categories/> */}
       <Routes>
+      <Route path="/" element={<><Home /><Categories /><FlashSale/></>} />
         <Route path="/home" element={<><Home /><Categories /><FlashSale/></>} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/flashsale" element={<FlashSale />} />  
@@ -38,7 +42,6 @@ const App = () => {
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/shippinginfo" element={<ShippingInfo/>} />
         <Route path="/termsandconditions" element={<TermsConditions/>} />
-
       </Routes>
       <Footer />
     </Router>

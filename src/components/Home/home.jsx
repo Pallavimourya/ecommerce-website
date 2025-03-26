@@ -10,7 +10,7 @@ const Home = () => {
       <div className="overlay">
         <div className="content">
           <h1>Shop Smarter, Live Better</h1>
-          <p>Discover the best deals on your favorite products</p>
+          <p  style={{ color: "white" }}>Discover the best deals on your favorite products</p>
           <button className="btn" onClick={() => navigate("/login")}>
             Shop Now
           </button>
